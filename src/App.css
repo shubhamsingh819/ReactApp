@@ -2,37 +2,29 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.quiz-results-container {
+  background-image: url("https://img.freepik.com/free-vector/3d-effect-question-background_52683-30325.jpg?size=626&ext=jpg&ga=GA1.1.133448208.1707934645&semt=ais");
+  background-size: cover;
+  background-position: center;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.quiz-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 300px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.quiz-card-content {
+  margin-bottom: 10px;
+}
+
+.quiz-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
 }
