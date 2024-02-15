@@ -32,7 +32,7 @@ const QuizAppAnswer = () => {
             {results?.quiz?.map((item, index) => (
               <div className="quiz-card" key={index}>
                 <div className="quiz-card-content">
-                  <h3>{item.name}</h3>
+                  <h3>Name:{item.name}</h3>
                   <p>
                     <strong>Phone:</strong> {item.phone}
                   </p>
